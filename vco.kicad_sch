@@ -3646,7 +3646,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 58d5e9aa-5595-4f3e-9fc6-52cb927712d1)
     (property "Reference" "RV9" (id 0) (at 182.88 119.8864 90))
-    (property "Value" "220K" (id 1) (at 182.88 122.4233 90))
+    (property "Value" "10K" (id 1) (at 182.88 122.4233 90))
     (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (id 2) (at 182.88 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4821,7 +4821,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a99e6af1-8dcb-42e4-b924-4b2e7e354e65)
     (property "Reference" "RV11" (id 0) (at 265.43 13.0642 90))
-    (property "Value" "220K" (id 1) (at 265.43 15.6011 90))
+    (property "Value" "47K" (id 1) (at 265.43 15.6011 90))
     (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (id 2) (at 265.43 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6536,13 +6536,13 @@
       (reference "RV8") (unit 1) (value "25K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
     )
     (path "/58d5e9aa-5595-4f3e-9fc6-52cb927712d1"
-      (reference "RV9") (unit 1) (value "220K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
+      (reference "RV9") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
     )
     (path "/37fdaf0a-cf60-456d-b11f-b915c1ec581e"
       (reference "RV10") (unit 1) (value "100K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
     )
     (path "/a99e6af1-8dcb-42e4-b924-4b2e7e354e65"
-      (reference "RV11") (unit 1) (value "220K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
+      (reference "RV11") (unit 1) (value "47K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
     )
     (path "/a04003e4-c542-4884-a43e-7ae3c8ee89d5"
       (reference "SW1") (unit 1) (value "Sync Mode") (footprint "Eurorack:Switch_SPDT_Tayda_A-5751")

@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pstiverson/Projects/AR-808/hardware/vco/vco.kicad_sch</source>
-    <date>Tue 14 Feb 2023 07:42:36 PM CST</date>
+    <date>Wed 15 Feb 2023 05:29:32 AM CST</date>
     <tool>Eeschema 6.0.10-86aedd382b~118~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1008,7 +1008,7 @@
       <tstamps>72c42dfc-0fc7-4afb-bcc4-12af5ca0edf2</tstamps>
     </comp>
     <comp ref="RV9">
-      <value>220K</value>
+      <value>10K</value>
       <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
       <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
       <property name="Sheetname" value=""/>
@@ -1026,7 +1026,7 @@
       <tstamps>37fdaf0a-cf60-456d-b11f-b915c1ec581e</tstamps>
     </comp>
     <comp ref="RV11">
-      <value>220K</value>
+      <value>47K</value>
       <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
       <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
       <property name="Sheetname" value=""/>
