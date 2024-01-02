@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pstiverson/Projects/AR-808/hardware/vco/vco.kicad_sch</source>
-    <date>Tue 02 Jan 2024 10:37:13 AM CST</date>
+    <date>Tue 02 Jan 2024 04:17:00 PM CST</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1260,12 +1260,12 @@
       <value>Sync Mode</value>
       <footprint>Eurorack:Switch_SPDT_Tayda_A-5751</footprint>
       <fields>
-        <field name="PartNum">X-4673</field>
+        <field name="PartNum">A-6087</field>
         <field name="Vendor">Tayda</field>
       </fields>
       <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
       <property name="Vendor" value="Tayda"/>
-      <property name="PartNum" value="X-4673"/>
+      <property name="PartNum" value="A-6087"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vco.kicad_sch"/>
       <property name="ki_description" value="Switch, single pole double throw"/>
@@ -1289,7 +1289,7 @@
       <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
       <property name="ki_keywords" value="quad opamp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>fbb9e8c4-d0aa-4a40-9c77-dc6c99198935 cd2a0e7f-0bed-4386-a05c-7961693dc476 44c60ca5-7da4-450b-9be1-1cffc3e60515 b629895c-73ea-482a-93bc-8cbac417b921 0efecbd9-3988-4e0f-8fe1-0c93d92ea3e6</tstamps>
+      <tstamps>cd2a0e7f-0bed-4386-a05c-7961693dc476 fbb9e8c4-d0aa-4a40-9c77-dc6c99198935 44c60ca5-7da4-450b-9be1-1cffc3e60515 b629895c-73ea-482a-93bc-8cbac417b921 0efecbd9-3988-4e0f-8fe1-0c93d92ea3e6</tstamps>
     </comp>
     <comp ref="U2">
       <value>OPA2134</value>
@@ -1307,7 +1307,7 @@
       <property name="ki_description" value="Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"/>
       <property name="ki_keywords" value="dual opamp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a613af37-7d04-4330-96e2-c38fff76fd21 8712c977-e82f-4767-8240-ac3b1a3a540f 1b22d3b6-c3fc-4a98-99ae-54aa4df4b5cb</tstamps>
+      <tstamps>8712c977-e82f-4767-8240-ac3b1a3a540f a613af37-7d04-4330-96e2-c38fff76fd21 1b22d3b6-c3fc-4a98-99ae-54aa4df4b5cb</tstamps>
     </comp>
     <comp ref="U3">
       <value>L78L12_SO8</value>

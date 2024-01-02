@@ -9,9 +9,13 @@ The circuit here is based on the [Yusynth VCO](https://yusynth.net/Modular/EN/VC
 * Full surface mount design,
 * Toggle switch on front face for sync hardness.
 
-The Yusynth page is a treasure trove of information about this circuit that I am too amateur to claim as my own; please read that outstanding page before using this circuit. The page provides several other implementations of the circuit that you may find more suitable.
+The Yusynth page is a treasure trove of information about this circuit that I am too amateur to claim as my own; please read that outstanding page before using this circuit. The page provides several other implementations of the circuit that you may find suitable.
 
 The KiCAD project here uses the library/footprints [found in my companion repo](https://github.com/thismatters/EurorackKiCAD).
+
+## Width
+
+12hp on a standard 3U rack.
 
 ## Inputs
 
@@ -95,5 +99,5 @@ There are part numbers in the [BOM](vco.csv) for many of the parts (not for basi
 
 ## Changelog
 
-v1: first draft
-v2: Added polarity protection, bigger holes for toggle switch footprint, reorganized board for easier trace routing.
+- v1: first draft
+- v2: Added polarity protection, bigger holes for toggle switch footprint, reorganized board for easier trace routing.

@@ -45,7 +45,7 @@
 "44","RV9","1","10K","Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical","","Tayda","A-586"
 "45","RV10","1","100K","Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical","","Tayda","A-587"
 "46","RV11","1","47K","Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical","","Tayda","A-598"
-"47","SW1","1","Sync Mode","Eurorack:Switch_SPDT_Tayda_A-5751","","Tayda","X-4673"
+"47","SW1","1","Sync Mode","Eurorack:Switch_SPDT_Tayda_A-5751","","Tayda","A-6087"
 "48","U1","1","TL074","Package_SO:SOIC-14_3.9x8.7mm_P1.27mm","","Mouser","595-TL074CN"
 "49","U2","1","OPA2134","Package_SO:SO-8_3.9x4.9mm_P1.27mm","","Mouser","595-OPA2137UA/2K5 --or-- 595-OPA2134UA/2K5"
 "50","U3","1","L78L12_SO8","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","","Mouser","863-NCV78L12ABDR2G"
