@@ -92,7 +92,7 @@ There are part numbers in the [BOM](vco.csv) for many of the parts (not for basi
 
 * [Mouser](https://www.mouser.com): Needs no introduction. Get your ICs from here (or [digikey](https://www.digikey.com)).
 * [Tayda Electronics](https://www.taydaelectronics.com/): Good supplier for passive components; audio jacks, and potentiometers. Their audio jacks are slightly smaller than the thonkiconn from thonk.
-* [Thonk](https://www.thonk.co.uk/): The only place I've found tempco resistors for sale!
+* [Thonk](https://www.thonk.co.uk/): The only place I've found tempco resistors for sale! You're looking for the 1k resistor, their store doesn't support part number searches.
 * [Love My Switches](https://lovemyswitches.com/): Has [really good knobs](https://lovemyswitches.com/anodized-aluminum-knob-the-lo-fi-1-4-smooth-shaft-12-5mm-od/) to go on those potentiometers!
 * [OSHPark](https://oshpark.com/): Fast and (relatively) cheap PCB manufacturer. [The V1 circuit](https://oshpark.com/shared_projects/N1VjtYdp) works well, but you'll have to file down the toggle switch legs to fit the tiny through holes on the board.
 
