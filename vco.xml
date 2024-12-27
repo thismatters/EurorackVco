@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pstiverson/Projects/AR-808/Eurorack/vco/vco.kicad_sch</source>
-    <date>Thu 26 Dec 2024 08:52:14 PM CST</date>
+    <date>Thu 26 Dec 2024 09:14:42 PM CST</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1260,12 +1260,12 @@
       <value>Sync Mode</value>
       <footprint>Eurorack:Switch_SPDT_Tayda_A-5751</footprint>
       <fields>
-        <field name="PartNum">A-6087</field>
+        <field name="PartNum">A-5751</field>
         <field name="Vendor">Tayda</field>
       </fields>
       <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
       <property name="Vendor" value="Tayda"/>
-      <property name="PartNum" value="A-6087"/>
+      <property name="PartNum" value="A-5751"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vco.kicad_sch"/>
       <property name="ki_description" value="Switch, single pole double throw"/>

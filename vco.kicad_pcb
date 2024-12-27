@@ -1004,7 +1004,7 @@
   (footprint "Eurorack:Switch_SPDT_Tayda_A-5751" (layer "F.Cu")
     (tstamp 4304e266-f950-4c84-ad45-56a628eb0a9c)
     (at 58.4835 64.135)
-    (property "PartNum" "A-6087")
+    (property "PartNum" "A-5751")
     (property "Sheetfile" "vco.kicad_sch")
     (property "Sheetname" "")
     (property "Vendor" "Tayda")

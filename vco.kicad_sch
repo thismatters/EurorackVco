@@ -6088,7 +6088,7 @@
     (property "Vendor" "Tayda" (at 52.07 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PartNum" "A-6087" (at 52.07 116.84 0)
+    (property "PartNum" "A-5751" (at 52.07 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0653de66-5225-453d-b7ae-c3c0d9c552a8))
