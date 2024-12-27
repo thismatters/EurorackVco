@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pstiverson/Projects/AR-808/Eurorack/vco/vco.kicad_sch</source>
-    <date>Thu 26 Dec 2024 02:48:34 PM CST</date>
+    <date>Thu 26 Dec 2024 08:52:14 PM CST</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -36,7 +36,7 @@
       <tstamps>ddccc3eb-1a75-4dc5-a117-92e204df6952</tstamps>
     </comp>
     <comp ref="C2">
-      <value>22U 50V</value>
+      <value>22u 50V</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -47,7 +47,7 @@
       <tstamps>8b1380fd-827b-4983-9946-f7f4554f0b60</tstamps>
     </comp>
     <comp ref="C3">
-      <value>22U 50V</value>
+      <value>22u 50V</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -271,7 +271,7 @@
     </comp>
     <comp ref="D7">
       <value>D_Dual_Series_AKC</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <fields>
         <field name="PartNum">863-BAT54SLT1G</field>
         <field name="Vendor">Mouser</field>
@@ -288,7 +288,7 @@
     </comp>
     <comp ref="D8">
       <value>D_Dual_Series_AKC</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <fields>
         <field name="PartNum">863-BAT54SLT1G</field>
         <field name="Vendor">Mouser</field>
@@ -509,7 +509,7 @@
       <tstamps>ddb6c8e9-0651-450b-bd5f-d0ba8573f3b7</tstamps>
     </comp>
     <comp ref="R1">
-      <value>70K</value>
+      <value>68K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -520,7 +520,7 @@
       <tstamps>9eba19e5-bf45-468e-b43c-8b75bc016d9b</tstamps>
     </comp>
     <comp ref="R2">
-      <value>50K</value>
+      <value>47K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -916,7 +916,7 @@
       <tstamps>70c7e502-b4f4-474a-abc6-2cec6231b294</tstamps>
     </comp>
     <comp ref="R38">
-      <value>50K</value>
+      <value>47K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -1289,7 +1289,7 @@
       <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
       <property name="ki_keywords" value="quad opamp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>fbb9e8c4-d0aa-4a40-9c77-dc6c99198935 cd2a0e7f-0bed-4386-a05c-7961693dc476 b629895c-73ea-482a-93bc-8cbac417b921 44c60ca5-7da4-450b-9be1-1cffc3e60515 0efecbd9-3988-4e0f-8fe1-0c93d92ea3e6</tstamps>
+      <tstamps>fbb9e8c4-d0aa-4a40-9c77-dc6c99198935 cd2a0e7f-0bed-4386-a05c-7961693dc476 44c60ca5-7da4-450b-9be1-1cffc3e60515 b629895c-73ea-482a-93bc-8cbac417b921 0efecbd9-3988-4e0f-8fe1-0c93d92ea3e6</tstamps>
     </comp>
     <comp ref="U2">
       <value>OPA2134</value>
@@ -1307,7 +1307,7 @@
       <property name="ki_description" value="Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"/>
       <property name="ki_keywords" value="dual opamp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>8712c977-e82f-4767-8240-ac3b1a3a540f a613af37-7d04-4330-96e2-c38fff76fd21 1b22d3b6-c3fc-4a98-99ae-54aa4df4b5cb</tstamps>
+      <tstamps>a613af37-7d04-4330-96e2-c38fff76fd21 8712c977-e82f-4767-8240-ac3b1a3a540f 1b22d3b6-c3fc-4a98-99ae-54aa4df4b5cb</tstamps>
     </comp>
     <comp ref="U3">
       <value>L78L12_SO8</value>
@@ -1376,7 +1376,7 @@
       <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
       <property name="ki_keywords" value="quad opamp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9543996d-e4ee-478a-b072-a858cd2a554f b8ad577f-6e9f-45f0-aff9-0f56feee906a ca03671f-f851-400e-8b32-fe0823464ca9 ae90bb4c-85a9-4fd9-ae55-9064c9f1a81a 0a28d8b1-75bb-43b3-a06c-7e61180e6a41</tstamps>
+      <tstamps>b8ad577f-6e9f-45f0-aff9-0f56feee906a ca03671f-f851-400e-8b32-fe0823464ca9 ae90bb4c-85a9-4fd9-ae55-9064c9f1a81a 9543996d-e4ee-478a-b072-a858cd2a554f 0a28d8b1-75bb-43b3-a06c-7e61180e6a41</tstamps>
     </comp>
     <comp ref="U7">
       <value>LM311</value>
@@ -1791,26 +1791,33 @@
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
       <node ref="RV11" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="RV4" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="RV5" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="RV6" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="IN" pintype="power_in"/>
       <node ref="U6" pin="4" pinfunction="V+" pintype="power_in"/>
     </net>
     <net code="2" name="-12V">
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
-      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R22" pin="2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="RV4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="RV5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="RV6" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="IN" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="IN" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="IN" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="IN" pintype="passive"/>
       <node ref="U6" pin="11" pinfunction="V-" pintype="power_in"/>
     </net>
     <net code="3" name="/COARSE">
@@ -1973,42 +1980,35 @@
       <node ref="R48" pin="1" pintype="passive"/>
       <node ref="U6" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="28" name="Net-(D7-A)">
-      <node ref="D7" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="D8" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="R13" pin="1" pintype="passive"/>
-      <node ref="U4" pin="2" pinfunction="IN" pintype="power_in"/>
-      <node ref="U4" pin="3" pinfunction="IN" pintype="passive"/>
-      <node ref="U4" pin="6" pinfunction="IN" pintype="passive"/>
-      <node ref="U4" pin="7" pinfunction="IN" pintype="passive"/>
-    </net>
-    <net code="29" name="Net-(D7-K)">
-      <node ref="D7" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D8" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="R12" pin="2" pintype="passive"/>
-      <node ref="U3" pin="8" pinfunction="IN" pintype="power_in"/>
-    </net>
-    <net code="30" name="Net-(D7-common)">
+    <net code="28" name="Net-(D7-common)">
       <node ref="D7" pin="3" pinfunction="common" pintype="passive"/>
-      <node ref="J11" pin="10" pinfunction="Pin_10" pintype="passive"/>
-      <node ref="J11" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
     </net>
-    <net code="31" name="Net-(D8-common)">
+    <net code="29" name="Net-(D8-common)">
       <node ref="D8" pin="3" pinfunction="common" pintype="passive"/>
-      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
     </net>
-    <net code="32" name="Net-(J1-PadT)">
+    <net code="30" name="Net-(J1-PadT)">
       <node ref="J1" pin="T" pintype="passive"/>
       <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="33" name="Net-(J4-PadT)">
+    <net code="31" name="Net-(J4-PadT)">
       <node ref="J4" pin="T" pintype="passive"/>
       <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="34" name="Net-(J5-PadT)">
+    <net code="32" name="Net-(J5-PadT)">
       <node ref="J5" pin="T" pintype="passive"/>
       <node ref="RV3" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(J11-Pin_1)">
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(J11-Pin_10)">
+      <node ref="J11" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J11" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
     </net>
     <net code="35" name="Net-(Q1-D)">
       <node ref="C5" pin="1" pintype="passive"/>
