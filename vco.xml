@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pstiverson/Projects/AR-808/Eurorack/vco/vco.kicad_sch</source>
-    <date>Thu 26 Dec 2024 09:14:42 PM CST</date>
+    <date>Thu 26 Dec 2024 09:52:06 PM CST</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -495,12 +495,12 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/MMBFJ113-D.PDF</datasheet>
       <fields>
-        <field name="PartNum">512-MMBFJ111</field>
+        <field name="PartNum">512-MMBFJ113</field>
         <field name="Vendor">Mouser</field>
       </fields>
       <libsource lib="Transistor_FET" part="MMBFJ111" description="20mA min, 35V, 30mOhm max, 3-10V Vgs(off), N-Channel JFET, SOT-23"/>
       <property name="Vendor" value="Mouser"/>
-      <property name="PartNum" value="512-MMBFJ111"/>
+      <property name="PartNum" value="512-MMBFJ113"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vco.kicad_sch"/>
       <property name="ki_description" value="20mA min, 35V, 30mOhm max, 3-10V Vgs(off), N-Channel JFET, SOT-23"/>
@@ -597,7 +597,7 @@
       <tstamps>9064e026-5c2b-4d0b-b115-fd239897d1fb</tstamps>
     </comp>
     <comp ref="R9">
-      <value>7.5K</value>
+      <value>27K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -652,7 +652,7 @@
       <tstamps>321692a2-9e57-4eb4-81ac-72a97388452e</tstamps>
     </comp>
     <comp ref="R14">
-      <value>7.5K</value>
+      <value>27K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -1070,7 +1070,7 @@
       <tstamps>b15ed3f2-4eef-4c0d-b243-0aa500413e07</tstamps>
     </comp>
     <comp ref="RV1">
-      <value>B25K</value>
+      <value>B100K</value>
       <footprint>Eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="PartNum">A-2491</field>
@@ -1087,7 +1087,7 @@
       <tstamps>920effeb-a1b6-4743-aab8-df313edd2b80</tstamps>
     </comp>
     <comp ref="RV2">
-      <value>B25K</value>
+      <value>B100K</value>
       <footprint>Eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="PartNum">A-2491</field>
@@ -1104,7 +1104,7 @@
       <tstamps>5f1290ea-f0e5-48c1-ad35-ee3a4d9270a5</tstamps>
     </comp>
     <comp ref="RV3">
-      <value>B25K</value>
+      <value>B100K</value>
       <footprint>Eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="PartNum">A-2491</field>
@@ -1121,7 +1121,7 @@
       <tstamps>aeb754e8-6c54-4e0b-972f-f36800596d4d</tstamps>
     </comp>
     <comp ref="RV4">
-      <value>B25K</value>
+      <value>B100K</value>
       <footprint>Eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="PartNum">A-2491</field>
@@ -1138,7 +1138,7 @@
       <tstamps>f433d155-9cf7-4757-b4c9-9a8741de8b4d</tstamps>
     </comp>
     <comp ref="RV5">
-      <value>B25K</value>
+      <value>B100K</value>
       <footprint>Eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="PartNum">A-2491</field>
@@ -1172,7 +1172,7 @@
       <tstamps>e6dc8b63-9005-425c-a3a8-52dad5450637</tstamps>
     </comp>
     <comp ref="RV7">
-      <value>B25K</value>
+      <value>B100K</value>
       <footprint>Eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
         <field name="PartNum">A-2491</field>
@@ -1278,12 +1278,12 @@
       <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
       <fields>
-        <field name="PartNum">595-TL074CN</field>
+        <field name="PartNum">595-TL074CDR</field>
         <field name="Vendor">Mouser</field>
       </fields>
       <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
       <property name="Vendor" value="Mouser"/>
-      <property name="PartNum" value="595-TL074CN"/>
+      <property name="PartNum" value="595-TL074CDR"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vco.kicad_sch"/>
       <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
@@ -1296,12 +1296,12 @@
       <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/opa134.pdf</datasheet>
       <fields>
-        <field name="PartNum">595-OPA2137UA/2K5 --or-- 595-OPA2134UA/2K5</field>
+        <field name="PartNum">595-OPA2134UA/2K5</field>
         <field name="Vendor">Mouser</field>
       </fields>
       <libsource lib="Amplifier_Operational" part="OPA2134" description="Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"/>
       <property name="Vendor" value="Mouser"/>
-      <property name="PartNum" value="595-OPA2137UA/2K5 --or-- 595-OPA2134UA/2K5"/>
+      <property name="PartNum" value="595-OPA2134UA/2K5"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vco.kicad_sch"/>
       <property name="ki_description" value="Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"/>
