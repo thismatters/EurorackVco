@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pstiverson/Projects/AR-808/Eurorack/vco/vco.kicad_sch</source>
-    <date>Thu 26 Dec 2024 09:52:06 PM CST</date>
+    <date>Thu 26 Dec 2024 10:00:31 PM CST</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1073,12 +1073,12 @@
       <value>B100K</value>
       <footprint>Eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
-        <field name="PartNum">A-2491</field>
+        <field name="PartNum">A-2963</field>
         <field name="Vendor">Tayda</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Vendor" value="Tayda"/>
-      <property name="PartNum" value="A-2491"/>
+      <property name="PartNum" value="A-2963"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vco.kicad_sch"/>
       <property name="ki_description" value="Potentiometer"/>
@@ -1090,12 +1090,12 @@
       <value>B100K</value>
       <footprint>Eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
-        <field name="PartNum">A-2491</field>
+        <field name="PartNum">A-2963</field>
         <field name="Vendor">Tayda</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Vendor" value="Tayda"/>
-      <property name="PartNum" value="A-2491"/>
+      <property name="PartNum" value="A-2963"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vco.kicad_sch"/>
       <property name="ki_description" value="Potentiometer"/>
@@ -1107,12 +1107,12 @@
       <value>B100K</value>
       <footprint>Eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
-        <field name="PartNum">A-2491</field>
+        <field name="PartNum">A-2963</field>
         <field name="Vendor">Tayda</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Vendor" value="Tayda"/>
-      <property name="PartNum" value="A-2491"/>
+      <property name="PartNum" value="A-2963"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vco.kicad_sch"/>
       <property name="ki_description" value="Potentiometer"/>
@@ -1124,12 +1124,12 @@
       <value>B100K</value>
       <footprint>Eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
-        <field name="PartNum">A-2491</field>
+        <field name="PartNum">A-2963</field>
         <field name="Vendor">Tayda</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Vendor" value="Tayda"/>
-      <property name="PartNum" value="A-2491"/>
+      <property name="PartNum" value="A-2963"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vco.kicad_sch"/>
       <property name="ki_description" value="Potentiometer"/>
@@ -1141,12 +1141,12 @@
       <value>B100K</value>
       <footprint>Eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
-        <field name="PartNum">A-2491</field>
+        <field name="PartNum">A-2963</field>
         <field name="Vendor">Tayda</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Vendor" value="Tayda"/>
-      <property name="PartNum" value="A-2491"/>
+      <property name="PartNum" value="A-2963"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vco.kicad_sch"/>
       <property name="ki_description" value="Potentiometer"/>
@@ -1175,12 +1175,12 @@
       <value>B100K</value>
       <footprint>Eurorack:Potentiometer_RV16AF-41-15R1</footprint>
       <fields>
-        <field name="PartNum">A-2491</field>
+        <field name="PartNum">A-2963</field>
         <field name="Vendor">Tayda</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Vendor" value="Tayda"/>
-      <property name="PartNum" value="A-2491"/>
+      <property name="PartNum" value="A-2963"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vco.kicad_sch"/>
       <property name="ki_description" value="Potentiometer"/>

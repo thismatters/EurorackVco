@@ -37,7 +37,7 @@
 "36","R43, R44, R46, R51","4","1K","Resistor_SMD:R_0805_2012Metric","","",""
 "37","R49","1","1.2K","Resistor_SMD:R_0805_2012Metric","","",""
 "38","R50","1","15K","Resistor_SMD:R_0805_2012Metric","","",""
-"39","RV1, RV2, RV3, RV4, RV5, RV7","6","B100K","Eurorack:Potentiometer_RV16AF-41-15R1","","Tayda","A-2491"
+"39","RV1, RV2, RV3, RV4, RV5, RV7","6","B100K","Eurorack:Potentiometer_RV16AF-41-15R1","","Tayda","A-2963"
 "40","RV6","1","220K","Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical","","Tayda","A-310"
 "41","RV8","1","25K","Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical","","Tayda","A-595"
 "42","RV9","1","10K","Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical","","Tayda","A-586"
