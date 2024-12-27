@@ -30,7 +30,7 @@
 "29","R17, R19, R26","3","1M","Resistor_SMD:R_0805_2012Metric","","",""
 "30","R18, R48","2","22K","Resistor_SMD:R_0805_2012Metric","","",""
 "31","R21, R24, R28, R29, R33, R39","6","10K","Resistor_SMD:R_0805_2012Metric","","",""
-"32","R22","1","5K6","Resistor_SMD:R_0805_2012Metric","","",""
+"32","R22","1","2.2K","Resistor_SMD:R_0805_2012Metric","","",""
 "33","R31, R45","2","180K","Resistor_SMD:R_0805_2012Metric","","",""
 "34","R40","1","8.2K","Resistor_SMD:R_0805_2012Metric","","",""
 "35","R42, R47","2","150K","Resistor_SMD:R_0805_2012Metric","","",""
