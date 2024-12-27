@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/pstiverson/Projects/AR-808/hardware/vco/vco.kicad_sch</source>
-    <date>Tue 02 Jan 2024 04:17:00 PM CST</date>
+    <source>/home/pstiverson/Projects/AR-808/Eurorack/vco/vco.kicad_sch</source>
+    <date>Thu 26 Dec 2024 02:48:34 PM CST</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -491,7 +491,7 @@
       <tstamps>25545d72-9b26-479e-ad98-6f2c13dc7d1b</tstamps>
     </comp>
     <comp ref="Q1">
-      <value>MMBFJ111</value>
+      <value>MMBFJ113</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/MMBFJ113-D.PDF</datasheet>
       <fields>
@@ -938,7 +938,7 @@
       <tstamps>a2a9f1ef-09a2-4888-a942-5cdbc23e673b</tstamps>
     </comp>
     <comp ref="R40">
-      <value>4.7K</value>
+      <value>8.2K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -993,7 +993,7 @@
       <tstamps>94e5f672-d966-4a2c-ad73-6fab68ab5af8</tstamps>
     </comp>
     <comp ref="R45">
-      <value>200K</value>
+      <value>180K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -1037,7 +1037,7 @@
       <tstamps>55c27910-fdfe-4156-920b-b2f160891a6a</tstamps>
     </comp>
     <comp ref="R49">
-      <value>1.5K</value>
+      <value>1.2K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -1289,7 +1289,7 @@
       <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
       <property name="ki_keywords" value="quad opamp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>cd2a0e7f-0bed-4386-a05c-7961693dc476 fbb9e8c4-d0aa-4a40-9c77-dc6c99198935 44c60ca5-7da4-450b-9be1-1cffc3e60515 b629895c-73ea-482a-93bc-8cbac417b921 0efecbd9-3988-4e0f-8fe1-0c93d92ea3e6</tstamps>
+      <tstamps>fbb9e8c4-d0aa-4a40-9c77-dc6c99198935 cd2a0e7f-0bed-4386-a05c-7961693dc476 b629895c-73ea-482a-93bc-8cbac417b921 44c60ca5-7da4-450b-9be1-1cffc3e60515 0efecbd9-3988-4e0f-8fe1-0c93d92ea3e6</tstamps>
     </comp>
     <comp ref="U2">
       <value>OPA2134</value>
@@ -1376,7 +1376,7 @@
       <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
       <property name="ki_keywords" value="quad opamp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9543996d-e4ee-478a-b072-a858cd2a554f b8ad577f-6e9f-45f0-aff9-0f56feee906a ae90bb4c-85a9-4fd9-ae55-9064c9f1a81a ca03671f-f851-400e-8b32-fe0823464ca9 0a28d8b1-75bb-43b3-a06c-7e61180e6a41</tstamps>
+      <tstamps>9543996d-e4ee-478a-b072-a858cd2a554f b8ad577f-6e9f-45f0-aff9-0f56feee906a ca03671f-f851-400e-8b32-fe0823464ca9 ae90bb4c-85a9-4fd9-ae55-9064c9f1a81a 0a28d8b1-75bb-43b3-a06c-7e61180e6a41</tstamps>
     </comp>
     <comp ref="U7">
       <value>LM311</value>
@@ -1646,6 +1646,8 @@
       <fields>
         <field name="Reference">U</field>
         <field name="Value">thermally_coupled_transistor_pair</field>
+        <field name="Vendor">Mouser --and-- Thonk</field>
+        <field name="PartNum">771-BCM847DS135 --and-- LT16S102F33</field>
       </fields>
       <pins>
         <pin num="1" name="E1" type="input"/>
@@ -1769,7 +1771,7 @@
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="Eurorack">
-      <uri>/home/pstiverson/Projects/AR-808/hardware/EurorackKiCAD/Eurorack.kicad_sym</uri>
+      <uri>/home/pstiverson/Projects/AR-808/Eurorack/EurorackKiCAD/Eurorack.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
       <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>

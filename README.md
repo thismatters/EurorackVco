@@ -15,7 +15,7 @@ The KiCAD project here uses the library/footprints [found in my companion repo](
 
 ## Width
 
-12hp on a standard 3U rack.
+10hp on a standard 3U rack.
 
 ## Inputs
 
@@ -35,7 +35,7 @@ Three 100kOhm resistors (R3, R4, R5) should be selected to within 0.1% tolerance
 
 Likewise, two diodes (D5 and D6) ought to be selected which have a closely matched bias voltage in order to ensure a good sine wave symmetry. Testing SMD diodes for bias voltage is no small feat, so I didn't really bother doing this on my test circuits and first printed boards and they seemed fine. I hasten to bet that manufacturing processes have improved to the extent that manual matching is no longer relevant; but that could also just be a justification for laziness!
 
-The schematic shows an OPA2134, however the original circuit calls for an OPA2137. The OPA2134 is a higher quality chip for sound applications, but it is also more expensive and was out of stock when I went to orde; the OPA2137 is a suitable alternative.
+The schematic shows an OPA2134, however the original circuit calls for an OPA2137. The OPA2134 is a higher quality chip for sound applications, but it is also more expensive and was out of stock when I went to order; the OPA2137 is a suitable alternative.
 
 The schematic calls for a `thermally_coupled_transistor_pair`; this is actually two components arranged carefully together. First a dual NPN transistor array (BCM847), then a thermco resistor which is nestled directly atop the transistor array package and the couple are blanketed in thermal grease so that the two components stay close to the same temperature.
 
@@ -48,8 +48,8 @@ You'll need an oscilloscope, a CV keyboard, and ideally a tuner.
 1. Set the frequency potentiometers to their middle positions, set the FM and PWM level knobs to minimum (counterclockwise), and the PW knob to the middle position.
 1. Connect the sawtooth output to the oscilloscope.
 1. Power on the circuit.
-1. Adjust RV10 until the sawtooth fills the full width of the trace (no horizontal line at top or bottom).
-1. Adjust RV9 until the sawtooth is centered about 0V. (You may have to revisit RV10 to get this perfect)
+1. Adjust RV10 until the sawtooth fills the full covers 10V from peak to peak (no horizontal line at top or bottom).
+1. Adjust RV9 until the sawtooth is centered about 0V. (You may have to revisit RV10 to get this perfect; before moving on the saw wave should fill the +/-5V range)
 1. Connect the triangle output to the oscilloscope.
 1. Adjust RV9 some more to get the triangle shape just right.
 1. Adjust RV11 until the triangle is centered around 0V. (You may have to revisit RV10 to get this perfect)
@@ -81,7 +81,6 @@ You'll need an oscilloscope, a CV keyboard, and ideally a tuner.
 1. Disconnect all inputs from circuit.
 1. Connect the tuner to the sine output.
 1. Set the coarse frequency knob to the fully counterclockwise position (0), set the fine frequency knob to the middle position (0).
-1. Adjust RV6 until you get a frequency of 16.2Hz.
 1. Connect a CV keyboard to the 1v/oct input, then press A3 (220Hz).
 1. Adjust RV6 until the frequency is 220Hz.
 
@@ -92,12 +91,20 @@ There are part numbers in the [BOM](vco.csv) for many of the parts (not for basi
 
 * [Mouser](https://www.mouser.com): Needs no introduction. Get your ICs from here (or [digikey](https://www.digikey.com)).
 * [Tayda Electronics](https://www.taydaelectronics.com/): Good supplier for passive components; audio jacks, and potentiometers. Their audio jacks are slightly smaller than the thonkiconn from thonk.
-* [Thonk](https://www.thonk.co.uk/): The only place I've found tempco resistors for sale! You're looking for the 1k resistor, their store doesn't support part number searches.
+* [Thonk](https://www.thonk.co.uk/): The only place I've found tempco resistors for sale! You're looking for the 1k resistor, their store doesn't support part number searches. These are apparently sold out forever and no longer manufactured... I'll look around for alternatives, and experiment with omitting that resistor...
 * [Love My Switches](https://lovemyswitches.com/): Has [really good knobs](https://lovemyswitches.com/anodized-aluminum-knob-the-lo-fi-1-4-smooth-shaft-12-5mm-od/) to go on those potentiometers!
 * [OSHPark](https://oshpark.com/): Fast and (relatively) cheap PCB manufacturer. [The V1 circuit](https://oshpark.com/shared_projects/N1VjtYdp) works well, but you'll have to file down the toggle switch legs to fit the tiny through holes on the board.
 
 
 ## Changelog
 
-- v1: first draft
-- v2: Added polarity protection, bigger holes for toggle switch footprint, reorganized board for easier trace routing.
+### v1
+- first draft
+
+### v2
+- Added polarity protection,
+- bigger holes for toggle switch footprint,
+- reorganized board for easier trace routing,
+- updated design language,
+- narrowed by 2hp,
+- changed some resistor values for more consistent +/-5V output,
