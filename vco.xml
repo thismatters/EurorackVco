@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pstiverson/Projects/AR-808/Eurorack/vco/vco.kicad_sch</source>
-    <date>Thu 26 Dec 2024 10:00:31 PM CST</date>
+    <date>Thu 26 Dec 2024 10:17:24 PM CST</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -740,7 +740,7 @@
       <tstamps>9bf04bc4-b49f-41f4-8090-87f762a6cbcf</tstamps>
     </comp>
     <comp ref="R22">
-      <value>5K6</value>
+      <value>22K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -1155,7 +1155,7 @@
       <tstamps>6aeec6a9-7c07-45d3-b332-f8bef5beb755</tstamps>
     </comp>
     <comp ref="RV6">
-      <value>220K</value>
+      <value>250K</value>
       <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
       <fields>
         <field name="PartNum">A-310</field>
@@ -1206,15 +1206,11 @@
       <tstamps>72c42dfc-0fc7-4afb-bcc4-12af5ca0edf2</tstamps>
     </comp>
     <comp ref="RV9">
-      <value>10K</value>
+      <value>100K</value>
       <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
-      <fields>
-        <field name="PartNum">A-586</field>
-        <field name="Vendor">Tayda</field>
-      </fields>
       <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
-      <property name="Vendor" value="Tayda"/>
-      <property name="PartNum" value="A-586"/>
+      <property name="Vendor" value=""/>
+      <property name="PartNum" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="vco.kicad_sch"/>
       <property name="ki_description" value="Trim-potentiometer"/>
@@ -1240,7 +1236,7 @@
       <tstamps>37fdaf0a-cf60-456d-b11f-b915c1ec581e</tstamps>
     </comp>
     <comp ref="RV11">
-      <value>47K</value>
+      <value>50K</value>
       <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
       <fields>
         <field name="PartNum">A-598</field>
@@ -1289,7 +1285,7 @@
       <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
       <property name="ki_keywords" value="quad opamp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>fbb9e8c4-d0aa-4a40-9c77-dc6c99198935 cd2a0e7f-0bed-4386-a05c-7961693dc476 44c60ca5-7da4-450b-9be1-1cffc3e60515 b629895c-73ea-482a-93bc-8cbac417b921 0efecbd9-3988-4e0f-8fe1-0c93d92ea3e6</tstamps>
+      <tstamps>44c60ca5-7da4-450b-9be1-1cffc3e60515 fbb9e8c4-d0aa-4a40-9c77-dc6c99198935 b629895c-73ea-482a-93bc-8cbac417b921 cd2a0e7f-0bed-4386-a05c-7961693dc476 0efecbd9-3988-4e0f-8fe1-0c93d92ea3e6</tstamps>
     </comp>
     <comp ref="U2">
       <value>OPA2134</value>
@@ -1376,7 +1372,7 @@
       <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
       <property name="ki_keywords" value="quad opamp"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b8ad577f-6e9f-45f0-aff9-0f56feee906a ca03671f-f851-400e-8b32-fe0823464ca9 ae90bb4c-85a9-4fd9-ae55-9064c9f1a81a 9543996d-e4ee-478a-b072-a858cd2a554f 0a28d8b1-75bb-43b3-a06c-7e61180e6a41</tstamps>
+      <tstamps>ca03671f-f851-400e-8b32-fe0823464ca9 b8ad577f-6e9f-45f0-aff9-0f56feee906a 9543996d-e4ee-478a-b072-a858cd2a554f ae90bb4c-85a9-4fd9-ae55-9064c9f1a81a 0a28d8b1-75bb-43b3-a06c-7e61180e6a41</tstamps>
     </comp>
     <comp ref="U7">
       <value>LM311</value>
