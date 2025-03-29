@@ -61,7 +61,7 @@ You'll need an oscilloscope, a CV keyboard, and ideally a tuner.
 
 1. Connect the CV source to the 1V/oct input, set the CV to 0V. If you're using a keyboard for this, hit C0.
 1. Connect your tuner to the sine output.
-1. Set CV to 0V, adjust the frequency knobs (coarse, then fine) until the tuner shows A1 (55Hz), then set the CV to 1V (press C1).
+1. Set CV to 0V, adjust the frequency knobs (coarse, then fine) until the tuner shows A1* (55Hz), then set the CV to 1V (press C1).
 1. If the tuner shows A2 (110Hz) then you're all set, move on to the next step. Otherwise, if the pitch is sharp (>110Hz) adjust RV8 so that the pitch goes sharper (if flat go flatter)! Now go back to the prior step.
 1. Repeat the prior _two_ steps this time jumping an additional octave. Once you've worked through all the octaves you have available then you're done!
 
@@ -75,6 +75,8 @@ You'll need an oscilloscope, a CV keyboard, and ideally a tuner.
 | A6   |   1760 Hz |
 | A7   |   3520 Hz |
 | A8   |   7040 Hz |
+
+\* A1 was chosen because it has a nice round number for a frequency which makes it easy to dial in on an oscilloscope. If you have a tuner use whatever pitch you like.
 
 ### Tuning
 
@@ -93,7 +95,7 @@ There are part numbers in the [BOM](vco.csv) for many of the parts (not for basi
 * [Tayda Electronics](https://www.taydaelectronics.com/): Good supplier for passive components; audio jacks, and potentiometers. Their audio jacks are slightly smaller than the thonkiconn from thonk.
 * [Thonk](https://www.thonk.co.uk/): The only place I've found tempco resistors for sale! You're looking for the 1k resistor, their store doesn't support part number searches. These are apparently sold out forever and no longer manufactured... I'll look around for alternatives, and experiment with omitting that resistor...
 * [Love My Switches](https://lovemyswitches.com/): Has [really good knobs](https://lovemyswitches.com/anodized-aluminum-knob-the-lo-fi-1-4-smooth-shaft-12-5mm-od/) to go on those potentiometers!
-* [OSHPark](https://oshpark.com/): Fast and (relatively) cheap PCB manufacturer. [The V1 circuit](https://oshpark.com/shared_projects/N1VjtYdp) works well, but you'll have to file down the toggle switch legs to fit the tiny through holes on the board.
+* [OSHPark](https://oshpark.com/): Fast and (relatively) cheap PCB manufacturer. [The V1 circuit](https://oshpark.com/shared_projects/FmhO6zEO) works great, but you may have a hard time finding the 1K thermco resistor.
 
 
 ## Changelog
